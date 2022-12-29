@@ -1,0 +1,5 @@
+<div class="text-center p-4" *ngIf="(counter$ | async) as count">
+    <h3>Counter is: {{ count.counter }}</h3>
+
+    <h4>Clicked at: {{ count.clickedAt }}</h4>
+</div>
